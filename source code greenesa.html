@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CircuLife - Eco-friendly Waste Management Solutions">
+  <title>Greenesa - Our Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+header {
+  background: white;
+  color: black;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 200px; 
+  height: auto;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+  position: relative;
+}
+
+nav ul li a {
+  font-weight: bold;
+  font-size: 1em;
+  padding: 10px;
+  color: #28a745;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #218838;
+}
+
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  padding: 10px 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.submenu li {
+  white-space: nowrap; 
+  padding: 5px 20px;
+}
+
+.submenu li a {
+  color: black;
+  padding: 5px 0;
+  display: block;
+}
+
+.submenu li a:hover {
+  background-color: #f4f4f4;
+}
+
+
+.active .submenu {
+  display: block;
+}
+
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 250px; 
+      height: auto;
+      margin-right: 10px;
+    }
+
+    
+    .logo h1 {
+      display: none;
+    }
+
+
+    nav {
+      background-color: #ffffff00;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      text-align: center;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+    }
+
+
+.content {
+  padding: 20px;
+  background-color: #f9f9f9; 
+  margin-top: 20px; 
+}
+
+.content h2 {
+  font-size: 1.5em; 
+  color: #28a745; 
+}
+
+.about-greenesa {
+  display: flex;
+  align-items: center; 
+  margin-top: 20px; 
+}
+
+.about-image {
+  width: 350px; 
+  height: auto; 
+  margin-right: 20px; 
+}
+
+.about-text {
+  max-width: 600px; 
+}
+
+.about-text h3 {
+  font-size: 3.5em;
+  color: #000000; 
+  margin-bottom: 10px; 
+}
+
+.about-text p {
+  font-size: 1em; 
+  line-height: 1.5; 
+  color: #333; 
+}
+
+
+    
+    .vision-mission {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 40px 20px;
+    }
+
+    .vision-container, .mission-container {
+      background-color: #ffffff;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .vision-container h2, .mission-container h2 {
+      font-size: 2em;
+      color: #28a745;
+      margin-bottom: 10px;
+      text-align: left;
+    }
+
+    .vision-container p, .mission-container p {
+      font-size: 1.2em;
+      color: #333;
+      text-align: left; 
+      line-height: 1.6;
+    }
+
+
+    
+    .services {
+      text-align: center;
+      padding: 40px;
+      background: url('waste-management.jpg') no-repeat center center/cover;
+      color: rgb(0, 0, 0);
+    }
+
+    .services h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    
+    .service-cards {
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: space-between;
+      padding: 40px 20px;
+      gap: 20px; 
+    }
+
+    
+
+    .card {
+      background-color: white;
+      padding: 20px;
+      width: calc(48% - 20px); 
+      margin-bottom: 20px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      font-size: 1.5em;
+      color: #28a745;
+    }
+
+    .card p {
+      margin: 15px 0;
+      font-size: 1em;
+      color: #666;
+    }
+
+    .card a {
+      display: block;
+      background-color: #28a745;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 10px 0;
+  color: #ddd;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.footer-section .information ul li {
+  color: #ddd;
+  font-size: 0.9em;
+}
+
+
+.footer-section.social-media ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #28a745;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.footer-section.social-media ul li a:hover {
+  background-color: #218838;
+}
+
+
+.footer-separator {
+  border: 0;
+  border-top: 1px solid #444;
+  margin: 20px 0;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  font-size: 0.9em;
+  color: #ddd;
+}
+
+
+    
+    .container {
+      text-align: center;
+      padding: 40px;
+    }
+
+    .container img {
+      width: 200px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .container h2 {
+      font-size: 2em;
+      color: #28a745;
+      font-weight: bold; 
+      color: black; 
+    }
+
+    .container p {
+      font-size: 1.2em;
+      margin: 20px auto;
+      width: 80%;
+    }
+
+    
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      display: none;
+    }
+
+    
+    .slideshow-container {
+      max-width: 100%;
+      position: relative;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .slides {
+      display: none;
+      width: 100%;
+    }
+
+    .slides img {
+      width: 100%;
+    }
+
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+
+  </style>
+</head>
+<body>
+
+ 
+<header>
+  <div class="logo">
+    <img src="C:\Users\Alifia Zahrani Anwar\Documents\PROJECT GREENESA\LOGO GREENESA.png" alt="Greenesa Logo">
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li>
+        <a href="#" onclick="toggleMenu(event, 'about-us')">About Us</a>
+        <ul class="submenu" id="about-us">
+          <li><a href="#">What is Greenesa</a></li>
+          <li><a href="#">Our Mission</a></li>
+          <li><a href="#">Our Vision</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" onclick="toggleMenu(event, 'education')">Education</a>
+        <ul class="submenu" id="education">
+          <li><a href="#">What is Waste</a></li>
+          <li><a href="#">Types of Waste</a></li>
+          <li><a href="#">Waste Management</a></li>
+          <li><a href="#">Results from Recycling</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<script src="script.js"></script> 
+
+<section class="content">
+  <div class="about-greenesa">
+    <img src="C:\Users\Alifia Zahrani Anwar\Documents\PROJECT GREENESA\foto about.png" alt="About Greenesa" class="about-image">
+    <div class="about-text">
+      <h3>About Greenesa</h3>
+      <p>Greenesa is a platform that aims to increase awareness and knowledge about waste management and the positive impact of recycling. We believe that with the right education, we can create a cleaner and more sustainable environment.</p>
+    </div>
+  </div>
+</section>
+
+  
+<section class="vision-mission">
+  <div class="vision-container">
+    <h2>Our Vision</h2>
+    <p>
+      To create an environment where waste is effectively managed, and society is educated about sustainable practices for a cleaner future.
+    </p>
+  </div>
+  
+  <div class="mission-container">
+    <h2>Our Mission</h2>
+    <p>
+      We aim to promote waste management practices that minimize environmental impact and empower communities to recycle and repurpose waste into useful products.
+    </p>
+  </div>
+</section>
+
+
+  
+  <div class="slideshow-container">
+    <div class="slides fade">
+      <img src="C:\Users\Alifia Zahrani Anwar\Documents\PROJECT GREENESA\foto 1 rev.png" alt="Sampah Plastik">
+    </div>
+
+    <div class="slides fade">
+      <img src="C:\Users\Alifia Zahrani Anwar\Documents\PROJECT GREENESA\foto 2.png" alt="Pengolahan Sampah Organik">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+  </div>
+
+ 
+<section class="services">
+  <h1>Education</h1>
+  <p>A wide range of waste disposal services</p>
+</section>
+
+
+<section class="service-cards">
+  <div class="card">
+    <h3>What is waste?</h3>
+    <p>Waste refers to discarded materials that are no longer useful to the user and need proper disposal.</p>
+    <a href="#education" onclick="showPage('education')">Learn More</a>
+  </div>
+
+  <div class="card">
+    <h3>Types of Waste</h3>
+    <p>Waste is divided into organic waste, which decomposes naturally, and inorganic waste, which is harder to break down.</p>
+    <a href="#solution" onclick="showPage('solution')">Learn More</a>
+  </div>
+
+  <div class="card">
+    <h3>Waste Management</h3>
+    <p>Waste management involves collecting, sorting, and processing waste to minimize environmental harm.</p>
+    <a href="#composting" onclick="showPage('composting')">Learn More</a>
+  </div>
+
+  <div class="card">
+    <h3>Results from Recycling</h3>
+    <p>Recycling transforms inorganic waste into new products, reducing the need for raw materials and environmental impact.</p>
+    <a href="#plastic-management" onclick="showPage('plastic-management')">Learn More</a>
+  </div>
+</section>
+
+
+  
+<footer>
+  <div class="footer-links">
+    
+    <div class="footer-section">
+      <h3>Greenesa</h3>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our Mission</a></li>
+        <li><a href="#">Our Vision</a></li>
+        <li><a href="#">Education</a></li>
+      </ul>
+    </div>
+    
+    
+    <div class="footer-section">
+      <h3>Information</h3>
+      <ul>
+        <li>Address: Jl. Ketintang No.2, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur 60231</li>
+        <li>Phone: +62 812 252 130 009</li>
+        <li>Email: greenesa@gmail.com</li>
+      </ul>
+    </div>
+    
+    
+    <div class="footer-section social-media">
+      <h3>Follow Us</h3>
+      <ul>
+        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+        <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  <hr class="footer-separator">
+  
+  
+  <div class="footer-bottom">
+    <p>&copy; 2024 Greenesa. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  
+  <button class="back-to-top" onclick="scrollToTop()">Back to Top</button>
+  
+  
+  <script>
+    
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    
+function toggleMenu(event, menuId) {
+  event.preventDefault(); 
+  const menu = document.getElementById(menuId);
+  const allSubmenus = document.querySelectorAll('.submenu');
+
+  
+  allSubmenus.forEach(submenu => {
+    if (submenu !== menu) {
+      submenu.parentElement.classList.remove('active');
+    }
+  });
+
+  
+  menu.parentElement.classList.toggle('active');
+}
+
+
+document.addEventListener('click', function(event) {
+  const isClickInside = event.target.closest('nav');
+  if (!isClickInside) {
+    document.querySelectorAll('.submenu').forEach(submenu => {
+      submenu.parentElement.classList.remove('active');
+    });
+  }
+});
+
+
+    
+    window.onscroll = function() {
+      const backToTopBtn = document.querySelector('.back-to-top');
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        backToTopBtn.style.display = 'block';
+      } else {
+        backToTopBtn.style.display = 'none';
+      }
+    };
+
+    
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      const slides = document.getElementsByClassName("slides");
+      const dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); 
+    }
+
+    
+    function showPage(page) {
+      
+    }
+  </script>
+</body>
+</html>
